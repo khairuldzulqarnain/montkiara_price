@@ -1,0 +1,142 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="602,826.6666666666666" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="546,762" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="484,651.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d9e1edc0-486e-44bf-a594-7d3e30adbb19" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,432" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Address' ReferenceName='Column0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Prices' ReferenceName='Column1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Prices Persqft' ReferenceName='Column2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='h2' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='ul' idx='1' /&gt;&lt;webctrl tag='li' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='p' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="388,160" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" Version="V3">
+              <uix:NExtractData.NextLink>
+                <uix:TargetAnchorable BrowserURL="https://www.iproperty.com.my/sale/serviced-residence/?subChannel=subsale&amp;q=mont+kiara" CvElementArea="1165, 885, 65, 65" CvTextArea="1191, 906, 10, 24" CvTextArgument=")" CvType="Button" DesignTimeRectangle="1169, 887, 60, 60" DesignTimeScaleFactor="1.5" ElementType="ListItem" FriendlyName="'⟩'" FullSelectorArgument="&lt;webctrl class='pagination-item' idx='4' parentid='app' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl class='pagination-item' type='' parentid='app' tag='LI' aaname='' check:innerText='⟩' /&gt;" Guid="aca12328-d2bf-4ff9-9dce-8f03b2d01572" ScopeSelectorArgument="&lt;html app='chrome.exe' title='mont kiara Property for sale Serviced Residence | iProperty.com.my' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NExtractData.NextLink>
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="104, 373, 1125, 17696" DesignTimeScaleFactor="1.5" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul' parentid='app' tag='UL' /&gt;" Guid="1b305ebc-4a72-45d5-bb86-a2eb5971eaa2" InformativeScreenshot="76bb09fad988794c7d0f00d62fe4ad5f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='mont kiara Property for sale Serviced Residence | iProperty.com.my' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:WriteRange AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="388,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="price" StartingCell="A1" WorkbookPath="Montkiara.xlsx" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="56c43e4b78429d28f3ac5b50a75da5bd.jpg" Selector="&lt;html app='chrome.exe' title='mont kiara Property for sale Serviced Residence | iProperty.com.my' /&gt;" Title="mont kiara Property for sale Serviced Residence | iProperty.com.my" Url="https://www.iproperty.com.my/sale/serviced-residence/?subChannel=subsale&amp;q=mont+kiara" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
